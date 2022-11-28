@@ -1,5 +1,24 @@
-header{
-    justify-content: center;
-    display: flex;
-    align-items: center;
+#grid_wrapper{
+    display: grid;
+    grid-template-areas: 
+    "he"
+    "se"
+    "fo";
 }
+
+header {
+   display: grid;
+   justify-content: center;
+   background-color: rgb(67, 202, 67);
+}
+
+footer{
+    background-color: aqua;
+    height: 250px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
