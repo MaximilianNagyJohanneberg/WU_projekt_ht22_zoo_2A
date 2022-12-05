@@ -1,24 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #grid_wrapper{
     display: grid;
-    grid-template-areas: 
-    "he"
-    "se"
-    "fo";
+    height: 100vh;
+    width: 100vh;
 }
 
 header {
-   display: grid;
+   display: flex;
    justify-content: center;
    background-color: rgb(67, 202, 67);
+position: relative;
+height: 50px;
 }
 
-footer{
+.bild_start{
+    height: 200px;
+    width: auto;
+    border-radius: 3px;
+    border: black;
+}
+
+#section_info{
+    display: flex;
     background-color: aqua;
-    height: 250px;
+    justify-content: space-evenly;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+.klick_texter{
+    border: 3px solid black;
+    border-radius: 3px;
+   display: flex;
+   justify-content: center;
 }
+
+.div_start{
+    
+}
+
+#entrance{
+    height: 100%;
+    width: auto;
+}
+
+#hamburger_icon{
+
+    height: 50px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+}
+
 
