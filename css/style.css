@@ -12,10 +12,39 @@
 
 header {
    display: flex;
-   justify-content: center;
    background-color: rgb(67, 202, 67);
-position: relative;
-height: 50px;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#div_header{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.div_header{
+    margin: 10px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#titel{
+    justify-content: center;
+    align-items: center;
+}
+
+#hamburger_icon{
+    height: 50px;
+    width: auto;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0;
 }
 
 .bild_start{
@@ -25,21 +54,21 @@ height: 50px;
     border: black;
 }
 
-#section_info{
+#section_öppettider{
     display: flex;
-    background-color: aqua;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div_öppettider{
+    margin-top: 20px;
 }
 
 .klick_texter{
     border: 3px solid black;
     border-radius: 3px;
-   display: flex;
-   justify-content: center;
-}
-
-.div_start{
-    
+    width: 150px;
 }
 
 #entrance{
@@ -47,12 +76,63 @@ height: 50px;
     width: auto;
 }
 
-#hamburger_icon{
 
-    height: 50px;
-    width: auto;
-    position: absolute;
-    right: 10px;
+#startsida_text{
+    width: 900px;
+    margin-top: 30px;
 }
+
+
+
+om djuren
+
+#grid_wrapper_om_djuren{
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+#info_text_djur{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#våra_djur{
+    font-size: 50px;
+}
+
+#section_övre{
+    display: flex;
+    justify-content: center;
+}
+
+.card_layouts{
+    
+}
+
+.card_image{
+background-color: aqua;
+height: 150px;
+margin-bottom: 10px;
+}
+
+.card{
+    margin: 10px;
+    height: 300px;
+    width: 150px;
+    background-color: pink;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.djur{
+    height: 150px;
+    width: 150px;
+}
+
+
+
 
 
