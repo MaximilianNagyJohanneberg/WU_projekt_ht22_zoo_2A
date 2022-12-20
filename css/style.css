@@ -28,10 +28,10 @@ header {
     margin-bottom: 0px;
 }
 
-.div_header{
+.div_header_text{
     margin: 10px;
-    color: inherit;
-    text-decoration: inherit;
+    color: black;
+    cursor: pointer;
 }
 
 #titel{
@@ -45,6 +45,7 @@ header {
     justify-content: flex-start;
     position: absolute;
     left: 0;
+    cursor: pointer;
 }
 
 .bild_start{
@@ -59,16 +60,25 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
 }
 
 #div_öppettider{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .klick_texter{
     border: 3px solid black;
     border-radius: 3px;
-    width: 150px;
+    width: 100px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+.klick_texter:hover{
+    background-color: rgb(247, 98, 98);
 }
 
 #entrance{
@@ -77,12 +87,67 @@ header {
 }
 
 
-#startsida_text{
-    width: 900px;
-    margin-top: 30px;
-}
+.footer-content .socials {
+    gap: 10px;
+  }
+  
 
-
+footer {
+    padding-block: 1rem;
+    background: rgb(33, 154, 33);
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: rgb(10, 8, 8);
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+  }
+  
+  .footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom p a {
+    color: #070909;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .footer-bottom {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+  }
 
 om djuren
 
@@ -103,9 +168,14 @@ om djuren
     font-size: 50px;
 }
 
-#section_övre{
+#section_ovan{
     display: flex;
     justify-content: center;
+}
+
+#section_undre{
+  display: flex;
+  justify-content: center;
 }
 
 .card_layouts{
@@ -119,9 +189,9 @@ margin-bottom: 10px;
 }
 
 .card{
-    margin: 10px;
+    margin: 40px;
     height: 300px;
-    width: 150px;
+    width: 200px;
     background-color: pink;
     border-radius: 5px;
     font-size: smaller;
@@ -129,10 +199,132 @@ margin-bottom: 10px;
 
 .djur{
     height: 150px;
-    width: 150px;
+    width: 200px;
+}
+
+.mer_info{
+  justify-content: center;
+  margin-left: 70px;
+  font-size: larger;
+  margin-top: 15px;
+  border: 2px solid black;
+  width: 60px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.mer_info:hover{
+
+}
+
+.byta_sida{
+  text-decoration: double;
+  color: #000;
 }
 
 
+restaurang
 
+#grid_wrapper_restaurang{
+display: grid;
+margin: 10px;
+justify-content: center;
+}
+
+#info_text_restaurang{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#annan_mat{
+  display: flex;
+  height: 50px;
+  font-size: larger;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#varmrätt_text{
+  text-decoration-line: underline;
+}
+
+.menu{
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.menu_group_heading{
+  margin: 0;
+  padding-bottom: 0,5em;
+  border-bottom: 2px solid #ccc;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.menu_group{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu_item{
+  display: flex;
+}
+
+.menu_item_image{
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+  margin-left: 14px;
+}
+
+.manu_item_text{
+  flex-grow: 1;
+}
+
+.menu_item_heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_item_name{
+  margin-right: 50px;
+}
+
+.menu_item_description{
+  line-height: 1.5;
+  width: 250px;
+}
+
+.menu_item_r{
+  display: flex;
+  margin-left: 425px;
+}
+
+.menu_group_2{
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 1.5em;
+}
+
+.menu_item_r_2{
+  display: flex;
+  margin-left: 413px;
+}
+
+.menu_group_3{
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.menu_item_r_3{
+  display: flex;
+  margin-left: 425px;
+}
 
 
