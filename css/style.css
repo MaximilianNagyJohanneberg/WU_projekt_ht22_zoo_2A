@@ -12,7 +12,7 @@
 
 header {
    display: flex;
-   background-color: rgb(67, 202, 67);
+   background-color: rgb(49, 182, 49);
     height: 50px;
     width: 100%;
     align-items: center;
@@ -21,8 +21,8 @@ header {
 }
 
 #div_header{
+  position: absolute;
     display: flex;
-    position: absolute;
     right: 30px;
     margin: 10px;
     margin-bottom: 0px;
@@ -78,7 +78,7 @@ header {
 }
 
 .klick_texter:hover{
-    background-color: rgb(247, 98, 98);
+    background-color: rgb(210, 65, 65);
 }
 
 #entrance{
@@ -94,7 +94,7 @@ header {
 
 footer {
     padding-block: 1rem;
-    background: rgb(33, 154, 33);
+    background: rgb(49, 182, 49);
     height: auto;
     width: auto;
     padding-top: 40px;
@@ -183,23 +183,50 @@ om djuren
 }
 
 .card_image{
-background-color: aqua;
-height: 150px;
-margin-bottom: 10px;
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 10px;
+  background-size: cover;
 }
 
 .card{
     margin: 40px;
     height: 300px;
     width: 200px;
-    background-color: pink;
-    border-radius: 5px;
     font-size: smaller;
+    border: 5px solid black;
 }
 
-.djur{
-    height: 150px;
-    width: 200px;
+#card_1{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/francesco-ZxNKxnR32Ng-unsplash.jpg');
+}
+
+#card_2{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/-lizards_-animals_-zoo_-istanbul_-turkey_-istanbulzoo_-tourism_\(14304639363\).jpeg');
+}
+
+#card_3{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/meerkats-zoo-animals-zoological-garden-preview.jpeg');
+}
+
+#card_4{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/orangutang.jpg');
+}
+
+#card_5{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/2019-07-24-04-30-37-550x413.jpeg');
+}
+
+#card_6{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/rs=w_365\,h_365\,cg_true.webp');
+}
+
+#card_7{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/becca-_r6w0R6SueQ-unsplash.jpg');
+}
+
+#card_8{
+  background-image: url('/WU_projekt_ht22_zoo_2A/img/animals/ashes-sitoula-Tn09il6Doe4-unsplash.jpg');
 }
 
 .mer_info{
@@ -214,7 +241,7 @@ margin-bottom: 10px;
 }
 
 .mer_info:hover{
-
+  background-color: rgb(224, 214, 214);
 }
 
 .byta_sida{
@@ -235,6 +262,7 @@ justify-content: center;
   display: grid;
   justify-content: center;
   text-align: center;
+  margin-top: 10px;
 }
 
 #annan_mat{
@@ -244,10 +272,10 @@ justify-content: center;
   justify-content: space-evenly;
   margin-top: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
-
-#varmrätt_text{
-  text-decoration-line: underline;
+.annan_mat:hover{
+  text-decoration: underline;
 }
 
 .menu{
@@ -312,7 +340,7 @@ justify-content: center;
   margin-bottom: 1.5em;
 }
 
-.menu_item_r_2{
+.menu_item_r2{
   display: flex;
   margin-left: 413px;
 }
@@ -322,9 +350,5 @@ justify-content: center;
   margin-top: 1.5em;
 }
 
-.menu_item_r_3{
-  display: flex;
-  margin-left: 425px;
-}
 
 
